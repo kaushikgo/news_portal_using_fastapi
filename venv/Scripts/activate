@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Dell\OneDrive\Desktop\New_folder\fastApi\venv"
+VIRTUAL_ENV="C:\Users\Dell\OneDrive\Desktop\New_folder\fastApi\sample_news_portal\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

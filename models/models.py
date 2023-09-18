@@ -1,10 +1,10 @@
 from pydantic import BaseModel, HttpUrl, EmailStr
 
 
-class User(BaseModel):
+class AdminModel(BaseModel):
     First_Name : str
     Last_Name : str
-    UserImage : HttpUrl
+    AdminImage : HttpUrl
     Email : EmailStr
     Password : str 
     Bio: str
@@ -19,7 +19,7 @@ class NewsModel(BaseModel):
     Tags : str
     Category : str
     Language : str
-    Status : str ="Draft"
+    Status : str ="draft"
     Viewcount : int = 0
     Related_News : str
 
@@ -29,5 +29,5 @@ class CategoryModel(BaseModel):
 
 class TagsModel(BaseModel):
     Tag : str
-    Released_Category : str
+    Related_Category : str
 

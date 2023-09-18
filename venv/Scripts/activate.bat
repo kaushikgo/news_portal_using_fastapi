@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Dell\OneDrive\Desktop\New_folder\fastApi\venv
+set VIRTUAL_ENV=C:\Users\Dell\OneDrive\Desktop\New_folder\fastApi\sample_news_portal\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
